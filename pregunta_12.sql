@@ -41,4 +41,5 @@
 --  4  E    832.44    118.77
 --
 --  >>> Escriba su codigo a partir de este punto <<<
+cur.execute("SELECT k0, max(c12),min(c12) FROM tbl1 GROUP BY K0" ).fetchall()
 --
