@@ -42,5 +42,5 @@
 --  12  C  24  482.32  300  2019-05-03  0.11  CCCE
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
-cur.execute("SELECT * FROM tbl1 WHERE K0 !='A' AND K0!='B' AND c13!= 200 AND c13!=900   ORDER BY c14" ).fetchall()
 --
+cur.execute("SELECT * FROM tbl1 WHERE K0 !='A' AND K0!='B' AND c13!= 200 AND c13!=900   ORDER BY c14" ).fetchall()

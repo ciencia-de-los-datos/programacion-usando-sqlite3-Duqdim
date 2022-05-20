@@ -41,5 +41,5 @@
 --  4   I  3000  300  PPPPL  0.3
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-cur.execute("SELECT * FROM tbl0 WHERE c02>= 300 " ).fetchall()
 --
+cur.execute("SELECT * FROM tbl0 WHERE c02>= 300 " ).fetchall()
