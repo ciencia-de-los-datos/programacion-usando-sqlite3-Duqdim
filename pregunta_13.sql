@@ -43,4 +43,4 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-cur.execute("SELECT k0, avg(c12) FROM tbl1 WHERE c13>400 GROUP BY K0" ).fetchall()
+SELECT K0, avg(c12) FROM tbl1 WHERE c13>400 GROUP BY K0
