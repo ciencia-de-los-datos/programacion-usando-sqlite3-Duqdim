@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT min(c21) FROM tbl2 
+SELECT min(c21) FROM tbl2 ORDER BY c21 ASC LIMIT 1
