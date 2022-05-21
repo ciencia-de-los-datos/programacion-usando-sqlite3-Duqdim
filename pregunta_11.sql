@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-cur.execute("SELECT COUNT(*)FROM tbl1 where strftime('%Y', c14)=="2018"").fetchall
+SELECT COUNT(*)FROM tbl1 where strftime('%Y', c14)=="2018"

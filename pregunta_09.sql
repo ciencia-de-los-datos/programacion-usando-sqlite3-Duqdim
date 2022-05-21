@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-cur.execute("SELECT min(c21) FROM tbl2 " ).fetchall()
+SELECT min(c21) FROM tbl2 

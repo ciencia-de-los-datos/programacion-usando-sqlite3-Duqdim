@@ -41,4 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-cur.execute("SELECT * FROM tbl0 WHERE c02= '100' OR c02='600'").fetchall()
+SELECT * FROM tbl0 WHERE c02= '100' OR c02='600'

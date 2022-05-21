@@ -18,4 +18,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-cur.execute("SELECT count(*) FROM tbl1").fetchall()
+SELECT count(*) FROM tbl1

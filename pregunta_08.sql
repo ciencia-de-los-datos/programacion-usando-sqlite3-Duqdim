@@ -41,4 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-cur.execute("SELECT strftime('%Y', c23) , avg(c21) from tbl2 GROUP BY strftime('%Y', c23)").fetchall
+SELECT strftime('%Y', c23) , avg(c21) from tbl2 GROUP BY strftime('%Y', c23)

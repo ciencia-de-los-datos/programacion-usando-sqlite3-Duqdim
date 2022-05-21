@@ -42,4 +42,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-cur.execute("SELECT * FROM tbl0 WHERE c02>= 300 " ).fetchall()
+SELECT * FROM tbl0 WHERE c02>= 300 
